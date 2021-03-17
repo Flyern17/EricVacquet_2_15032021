@@ -17,3 +17,21 @@ h2
 {
 	background-color: #F2F2F2;
 }
+
+#conteneur
+{
+	display: flex;
+	justify-content: flex-end;
+	margin-right: 10%;
+}
+
+.headernavi
+{
+	margin:40px; 
+}
+
+#headerimage
+{
+	margin: 25px;
+	
+}
