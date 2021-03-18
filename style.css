@@ -37,6 +37,38 @@
 	align-content: flex-start;
 }
 
+.searchBarIcon
+{
+	height: 3em;
+	width: 3em;
+	min-height: 3em;
+	min-width: 3em;
+	border: solid 0px #d9d9d9;
+	border-radius: 25%;
+	display: flex;
+	align-content: center;
+	justify-content: center;
+	margin-right: 1rem;
+	align-items: center;
+	color: black;
+	background-color: #F2F2F2;
+}
+
+.money
+{
+	height: 3em;
+	width: 3em;
+	min-height: 3em;
+	min-width: 3em;
+	border: solid 1px #d9d9d9;
+	border-radius: 100%;
+	display: flex;
+	align-content: center;
+	justify-content: center;
+	margin-right: 1rem;
+	align-items: center;
+	color: #0065FC;
+}
 .rechercheicon
 {
 	height: 2rem;
