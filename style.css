@@ -3,7 +3,7 @@
 	src: url('Raleway/static/Raleway-Regular.ttf') format('truetype');
 }
 
-*
+*   /*Police*/
 {
 	font-family: Raleway;
 }
@@ -13,25 +13,67 @@
 	background-color: #F2F2F2;
 }
 
-h2
-{
-	background-color: #F2F2F2;
-}
 
-#conteneur
+#conteneur /*Header*/
 {
 	display: flex;
-	justify-content: flex-end;
-	margin-right: 10%;
+	align-items: center;
+	justify-content: space-around;
+	max-width: 1440px;
+	max-height: 80px;
+	margin: auto;
+
 }
 
 .headernavi
 {
-	margin:40px; 
+	margin:0.5%;
+	padding: 1%;
 }
 
 #headerimage
 {
-	margin: 25px;
-	
+	margin-right: 55%;
+	align-content: flex-start;
+}
+
+.rechercheicon
+{
+	height: 2rem;
+	width: 2rem;
+	min-height: 2rem;
+	min-width: 2rem;
+	border: solid 1px #d9d9d9;
+	border-radius: 100%;
+	display: flex;
+	align-content: center;
+	justify-content: center;
+	margin-right: 1rem;
+	align-items: center;
+	color: #0065FC;
+	float: left;
+}
+
+.information
+{
+	display: flex;
+	align-items: center;
+	margin: 1rem 0 2rem 0; 
+}
+
+.main
+{
+	max-width: 1440px;
+	margin: auto;
+}
+
+footer
+{
+	background-color: #F2F2F2;
+}
+
+.findepage
+{
+	max-width: 1440px;
+	margin: auto;
 }

@@ -3,62 +3,87 @@
 <head>
 	<title>Reservia</title>
 	<link rel="stylesheet" href="style.css">
+	<script src="https://kit.fontawesome.com/289d9bac8a.js" crossorigin="anonymous"></script>
 </head>
 <body>
 	<!--Ancres de recherche-->
 	<header>
 		<div id="conteneur">
-			<div  id="headerimage"><a href="Reservia@3x.png"><img src="images/logo/Reservia.svg" alt="Icone du site internet"/></a></div>
+			<div  id="headerimage"><a href="Reservia@3x.png"><img src="images/logo/Reservia.svg" alt="Icone du site internet" /></a></div>
 			<div class="headernavi"><a href="#hebergement">Hébergement</a></div>
 			<div class="headernavi"><a href="#activite">Activités</a></div>
 			<div class="headernavi"><a href="#Inscription">S'inscrire</a></div>
 		</div>
 	</header>
 
-	<!--En-tête de page-->
-	<section id="filtre">
-		<p></p>
-		<h1>Trouvez votre hébergement pour les vacances de rêve</h1>
-		<p>En plein centre ville ou en pleine nature</p>
+	<main class="main">
+		<!--En-tête de page-->
+		<section id="filtre">
+			<p></p>
+			<h1>Trouvez votre hébergement pour les vacances de rêve</h1>
+			<p>En plein centre ville ou en pleine nature</p>
 
 
-		<!--Barre de recherche-->
+			<!--Barre de recherche-->
 
 
-		<!--Filtres-->
+			<!--Filtres-->
 
 
-		<!--Description-->
-		<i class="fas fa-info"></i>
-	</section>
+			<!--Description-->
+			<section class="information">
+				<div class="rechercheicon">
+					<i class="fas fa-info"></i>
+				</div>
+				<p>Plus de 500 logements sont disponibles dans cette ville</p>
+			</section>
+		</section>
 
 
-	<!--Coeur de la page-->
-	<section>
-		<div id="hebergement">Hébergement à Marseille</div>
-		<div>Les plus populaires</div>
-	</section>
+		<!--Coeur de la page-->
+		<section class="colorgray">
+			<header id="hebergement">
+				Hébergement à Marseille
+			</header>
+			<div><a href="#">
+				<figure class="figure">
+					<img src="images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="Image d'un lit superposé avec une vue de ville" />
+					<figcaption>Auberge la Cannebière</figcaption>
+				</figure>
+			</a></div>
+		</section>
 
-	<section>
-		<h3 id="activite">Activités à Marseille</h3>
-	</section>
+		<section>
+			<header class="colorgray">
+				Les plus populaires
+			</header>
+		</section>
+
+		<section>
+			<h2 id="activite">Activités à Marseille</h2>
+		</section>
+
+	</main>
 	<!--Fin de page-->
 	<footer>
 	<!--A propos-->
-		<h2>A propos</h2>
-		<p class="colorgray">Fonctionnement du site<br /><br />
-		Conditions générales de vente<br /><br />
-		Données et confidentialité</p>
+		<section class="findepage">
+			<h2>A propos</h2>
+			<p>Fonctionnement du site<br /><br />
+			Conditions générales de vente<br /><br />
+			Données et confidentialité</p>
 
-	<!--Nos hébergements-->
-		<h2>Nos hébergements</h2>
-		<p class="colorgray">Charte qualité<br /><br />
-		Soumettre votre hôtel</p>
-	
-	<!--Assistance-->
-		<h2>Assistance</h2>
-		<p class="colorgray">Centre d'aide<br /><br />
-		Nous contacter</p>
+		<!--Nos hébergements-->
+			<h2>Nos hébergements</h2>
+			<p>Charte qualité<br /><br />
+			Soumettre votre hôtel</p>
+
+		<!--Assistance-->
+			<h2>Assistance</h2>
+			<p>Centre d'aide<br /><br />
+			Nous contacter</p>
+		</section>
 	</footer>
+
 </body>
 </html>
