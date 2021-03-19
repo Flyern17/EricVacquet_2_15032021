@@ -6,100 +6,114 @@
 	<script src="https://kit.fontawesome.com/289d9bac8a.js" crossorigin="anonymous"></script>
 </head>
 <body>
+	<div id="bloc-page">
 	<!--Ancres de recherche-->
-	<header>
-		<div id="conteneur">
-			<div  id="headerimage"><a href="Reservia@3x.png"><img src="images/logo/Reservia.svg" alt="Icone du site internet" /></a></div>
-			<div class="headernavi"><a href="#hebergement">Hébergement</a></div>
-			<div class="headernavi"><a href="#activite">Activités</a></div>
-			<div class="headernavi"><a href="#Inscription">S'inscrire</a></div>
-		</div>
-	</header>
-
-	<main class="main">
-		<!--En-tête de page-->
-		<section id="searchBar">
-			<header>
-				<h1>Trouvez votre hébergement pour les vacances de rêve</h1>
-				<p>En plein centre ville ou en pleine nature</p>
-			</header>
-
-			<!--Icone de recherche-->
-			<form class="searchForm" action="Searchbar.html" method="GET">
-				<span class="searchBarIcon">
-					<i class="fas fa-map-marker-alt"></i>
-				</span>
-			<!--Barre de recherche-->
-				<p>
-					<imput class="searchFormImput" type="search" placeholder="Marseille, France" size="1" /> Oui
-				</p>
-			
-				
-			</form>
-
-
-			<!--Filtres-->
-			<h2>Filtres</h2>
-			<div class="money">
-				<i class="fas fa-money-bill-wave"></i>
+		<header>
+		
+			<div id="headerimage">
+				<img src="images/logo/Reservia.svg" alt="Icone du site internet" />
 			</div>
-			<span class="filters">Economique</span>
+
+			<nav id="conteneur">
+				<ul>
+					<li><a href="#hebergement">Hébergement</a></li>
+					<li><a href="#activite">Activités</a></li>
+					<li><a href="#Inscription">S'inscrire</a></li>
+				</ul>
+			</nav>
+		
+		</header>
+
+		<main class="main">
+			<!--En-tête de page-->
+			<section id="searchBar">
+				<article>
+					<h1>Trouvez votre hébergement pour les vacances de rêve</h1>
+					<p>En plein centre ville ou en pleine nature</p>
+				</article>
+
+				<!--Icone de recherche-->
+				<form class="searchForm" action="Searchbar.html" method="POST">
+					<span class="searchBarIcon">
+						<i class="fas fa-map-marker-alt"></i>
+					</span>
+				<!--Barre de recherche-->
+					<p>
+						<input class="searchFormInput" type="search" placeholder="Marseille, France" size="" />
+					</p>
+				<!--Bouton de recherche-->
+					<button>
+						<span class="searchFormButton">Recherche
+							<i class="searchFormSubmitinputIcon fas fa-search"></i>
+						</span>
+					</button>
+				
+					
+				</form>
 
 
-			<!--Description-->
-			<section class="information">
-				<div class="rechercheicon">
-					<i class="fas fa-info"></i>
+				<!--Filtres-->
+				<h2>Filtres</h2>
+				<div class="icon">
+					<i class="fas fa-money-bill-wave"></i>
 				</div>
-				<p>Plus de 500 logements sont disponibles dans cette ville</p>
+				<span class="filters">Economique</span>
+
+
+				<!--Description-->
+				<section class="information">
+					<div class="rechercheicon">
+						<i class="fas fa-info"></i>
+					</div>
+					<p>Plus de 500 logements sont disponibles dans cette ville</p>
+				</section>
 			</section>
-		</section>
 
 
-		<!--Coeur de la page-->
-		<section class="colorgray">
-			<header id="hebergement">
-				Hébergement à Marseille
-			</header>
-			<div><a href="#">
-				<figure class="figure">
-					<img src="images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="Image d'un lit superposé avec une vue de ville" />
-					<figcaption>Auberge la Cannebière</figcaption>
-				</figure>
-			</a></div>
-		</section>
+			<!--Coeur de la page-->
+			<section class="colorgray">
+				<article id="hebergement">
+					Hébergement à Marseille
+				</article>
+				<div><a href="#">
+					<figure class="figure">
+						<img src="images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="Image d'un lit superposé avec une vue de ville" />
+						<figcaption>Auberge la Cannebière</figcaption>
+					</figure>
+				</a></div>
+			</section>
 
-		<section>
-			<header class="colorgray">
-				Les plus populaires
-			</header>
-		</section>
+			<section>
+				<aside class="colorgray">
+					Les plus populaires
+				</aside>
+			</section>
 
-		<section>
-			<h2 id="activite">Activités à Marseille</h2>
-		</section>
+			<section>
+				<h2 id="activite">Activités à Marseille</h2>
+			</section>
 
-	</main>
-	<!--Fin de page-->
-	<footer>
-	<!--A propos-->
-		<section class="findepage">
-			<h2>A propos</h2>
-			<p>Fonctionnement du site<br /><br />
-			Conditions générales de vente<br /><br />
-			Données et confidentialité</p>
+		</main>
+		<!--Fin de page-->
+		<footer>
+		<!--A propos-->
+			<section class="findepage">
+				<h2>A propos</h2>
+				<p>Fonctionnement du site<br /><br />
+				Conditions générales de vente<br /><br />
+				Données et confidentialité</p>
 
-		<!--Nos hébergements-->
-			<h2>Nos hébergements</h2>
-			<p>Charte qualité<br /><br />
-			Soumettre votre hôtel</p>
+			<!--Nos hébergements-->
+				<h2>Nos hébergements</h2>
+				<p>Charte qualité<br /><br />
+				Soumettre votre hôtel</p>
 
-		<!--Assistance-->
-			<h2>Assistance</h2>
-			<p>Centre d'aide<br /><br />
-			Nous contacter</p>
-		</section>
-	</footer>
-
+			<!--Assistance-->
+				<h2>Assistance</h2>
+				<p>Centre d'aide<br /><br />
+				Nous contacter</p>
+			</section>
+		</footer>
+	</div>
 </body>
 </html>
