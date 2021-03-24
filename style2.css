@@ -9,11 +9,12 @@
 }
 body
 {
-    margin: 0
+    width: 1440px;
 }
 
 .header 
 {
+    display: flex;
     background: gray;
     padding: 5px;
     height: 100px;
@@ -68,8 +69,65 @@ main
     border: 1px solid #0065FC; 
 }
 
+.coeur
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.coeur img
+{
+    width: 250px;
+    height: 120px; 
+}
+
+.filter
+{
+    display: inline-block;
+}
+
+.element-activite {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.element-activite article {
+    flex: 0 0 25%; 
+}
+
+.element-activite article img {
+    width: 200px;
+}
+
 footer
 {
-    background: grey;   
+    display: flex;
+    justify-content: space-around;
+    background: #f2f2f2;   
     padding: 10px 20px;
+}
+
+footer .Blocfooter {
+    width: 30%;
+    padding: 2rem 2rem;
+    border: 1px solid black;
+}
+
+footer a
+{
+    display: block;
+    text-decoration: none;
+    color: black;
+    padding: 0.5rem 1rem;
+
+}
+
+footer a:hover 
+{
+    text-decoration: underline;
+}
+
+.BlocFooterLien
+{
+
 }

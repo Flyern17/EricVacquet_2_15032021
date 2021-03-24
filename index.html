@@ -11,7 +11,7 @@
 		<header class="header">
 		
 			<div class="headerimage">
-				<img src="images/logo/Reservia.svg" alt="Icone du site internet" />
+				<img src="images/logo/Reservia.svg" alt="Logo du site internet" />
 			</div>
 
 			<nav class="header-nav">
@@ -27,21 +27,20 @@
 		<main class="main">
 			<!--En-tête de page-->
 			<section id="searchBar">
-				<article>
+				<div class="Intro">
 					<h1>Trouvez votre hébergement pour les vacances de rêve</h1>
 					<p>En plein centre ville ou en pleine nature</p>
-				</article>
-
-				<!--Icone de recherche-->
+				</div>
+				<!--Zone de recherche-->
 				<form class="searchForm" action="Searchbar.html" method="POST">
 					<span class="searchBarIcon">
 						<i class="fas fa-map-marker-alt"></i>
 					</span>
-				<!--Barre de recherche-->
+					<!--Barre de recherche-->
 					<p>
 						<input class="searchFormInput" type="search" placeholder="Marseille, France" size="" />
 					</p>
-				<!--Bouton de recherche-->
+					<!--Bouton de recherche-->
 					<button class="buttonSearch">
 						<span class="searchFormButton">Recherche
 							<i class="searchFormSubmitinputIcon fas fa-search"></i>
@@ -54,44 +53,48 @@
 
 				<!--Filtres-->
 				<h2>Filtres</h2>
+				<div class="Filter">
+					<div class="Icone">
+						<div class="icon">
+							<i class="fas fa-money-bill-wave"></i>
+						</div>
+						<span class="filters">Economique</span>
+					</div>
+					
+					<div class="icon">
+						<i class="fas fa-child"></i>
+					</div>
+					<span class="filters">Familial</span>
 
-				<div class="icon">
-					<i class="fas fa-money-bill-wave"></i>
-				</div>
-				<span class="filters">Economique</span>
+					<div class="icon">
+						<i class="fas fa-heart"></i>
+					</div>
+					<span class="filters">Romantique</span>
 
-				<div class="icon">
-					<i class="fas fa-child"></i>
+					<div class="icon">
+						<i class="fas fa-dog"></i>
+					</div>
+					<span class="filters">Animaux autorisés</span>
 				</div>
-				<span class="filters">Familial</span>
-
-				<div class="icon">
-					<i class="fas fa-heart"></i>
-				</div>
-				<span class="filters">Romantique</span>
-
-				<div class="icon">
-					<i class="fas fa-dog"></i>
-				</div>
-				<span class="filters">Animaux autorisés</span>
 
 
 
 				<!--Description-->
-				<section class="information">
+				<div class="information">
 					<div class="rechercheicon">
 						<i class="fas fa-info"></i>
 					</div>
 					<p>Plus de 500 logements sont disponibles dans cette ville</p>
-				</section>
+				</div>
 			</section>
 
 
 			<!--Coeur de la page-->
-			<section class="hosting">
-				<article id="hebergement">
+		<section class="coeur">
+			<div class="hosting">
+				<div id="hebergement">
 					<h2>Hébergement à Marseille</h2>
-				</article>
+				</div>
 				<!--1er cadre-->
 				<article class="hostingcardMain"><a href="#">
 					<figure class="hostingcardFigureImg">
@@ -106,7 +109,8 @@
 						<i class="fas fa-star" data-active="true"></i>
 						<i class="fas fa-star" data-active="false"></i>
 					</div>
-				</a></article>
+				</a>
+				</article>
 				<!--2ème cadre-->
 				<article class="hostingcardMain"><a href="#">
 					<figure class="hostingcardFigureImg">
@@ -121,7 +125,8 @@
 						<i class="fas fa-star" data-active="true"></i>
 						<i class="fas fa-star" data-active="true"></i>
 					</div>
-				</a></article>
+				</a>
+				</article>
 				<!--3ème cadre-->
 				<article class="hostingcardMain"><a href="#">
 					<figure class="hostingcardFigureImg">
@@ -136,7 +141,8 @@
 						<i class="fas fa-star" data-active="true"></i>
 						<i class="fas fa-star" data-active="false"></i>
 					</div>
-				</a></article>
+				</a>
+				</article>
 				<!--4ème cadre-->
 				<article class="hostingcardMain"><a href="#">
 					<figure class="hostingcardFigureImg">
@@ -151,7 +157,8 @@
 						<i class="fas fa-star" data-active="false"></i>
 						<i class="fas fa-star" data-active="false"></i>
 					</div>
-				</a></article>
+				</a>
+				</article>
 				<!--5ème cadre-->
 				<article class="hostingcardMain"><a href="#">
 					<figure class="hostingcardFigureImg">
@@ -166,7 +173,8 @@
 						<i class="fas fa-star" data-active="true"></i>
 						<i class="fas fa-star" data-active="false"></i>
 					</div>
-				</a></article>
+				</a>
+				</article>
 				<!--6ème cadre-->
 				<article class="hostingcardMain"><a href="#">
 					<figure class="hostingcardFigureImg">
@@ -181,14 +189,15 @@
 						<i class="fas fa-star" data-active="true"></i>
 						<i class="fas fa-star" data-active="true"></i>
 					</div>
-				</a></article>
-			</section>
+				</a>
+				</article>
+			</div>
 
 			<!--Les plus populaires-->
-			<section class="hosting">
-				<article>
+			<div class="hosting">
+				<div>
 					<h2>Les plus populaires</h2>
-				</article>
+				</div>
 
 				<article class="hostingcardMain"><a href="#">
 					<figure class="hostingcardFigureImg">
@@ -202,6 +211,7 @@
 						<i class="fas fa-star" data-active="true"></i>
 						<i class="fas fa-star" data-active="true"></i>
 						<i class="fas fa-star" data-active="true"></i>
+				</a>
 				</article>
 
 				<article class="hostingcardMain"><a href="#">
@@ -216,6 +226,7 @@
 						<i class="fas fa-star" data-active="true"></i>
 						<i class="fas fa-star" data-active="true"></i>
 						<i class="fas fa-star" data-active="false"></i>
+				</a>
 				</article>
 
 				<article class="hostingcardMain"><a href="#">
@@ -230,79 +241,92 @@
 						<i class="fas fa-star" data-active="true"></i>
 						<i class="fas fa-star" data-active="true"></i>
 						<i class="fas fa-star" data-active="false"></i>
+				</a>
 				</article>
-			</section>
+			</div>
+		</section>
 
 			<!--Activités-->
-			<section>
-				<article>
+			<section class="activites">
+			
+				<div>
 					<h2 id="activite">Activités à Marseille</h2>
-				</article>
-
-				<article class="hostingcardMain"><a href="#">
-					<figure class="hostingcardFigureImg">
+				</div>
+			<div class="element-activite">
+				<article class="hostingcardMain">
+					
+					<figure class="hostingcardFigureImg"><a href="#">
 						<img src="images/activites/3_medium/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" alt="Image du Vieux Port" />
 						<figcaption>Vieux Port</figcaption>
-					</figure>
+					</a></figure>
+					
 				</article>
 
-				<article class="hostingcardMain"><a href="#">
-					<figure class="hostingcardFigureImg">
+				<article class="hostingcardMain">
+					<figure class="hostingcardFigureImg"><a href="#">
 						<img src="images/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg" alt="Image du Fort de Pomègues" />
 						<figcaption>Fort de Pomègues</figcaption>
-					</figure>
+					</a></figure>
 				</article>
 
-				<article class="hostingcardMain"><a href="#">
-					<figure class="hostingcardFigureImg">
+				<article class="hostingcardMain">
+					<figure class="hostingcardFigureImg"><a href="#">
 						<img src="images/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg" alt="Image de l'ile de Frioul au loin" />
 						<figcaption>Ile de Frioul</figcaption>
-					</figure>
+					</a></figure>
 				</article>
 
-				<article class="hostingcardMain"><a href="#">
-					<figure class="hostingcardFigureImg">
+				<article class="hostingcardMain">
+					<figure class="hostingcardFigureImg"><a href="#">
 						<img src="images/activites/3_medium/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg" alt="Image des calanques du parc Nationnal des calanques" />
 						<figcaption>Parc Nationnal des Calanques</figcaption>
-					</figure>
+					</a></figure>
 				</article>
 
-				<article class="hostingcardMain"><a href="#">
-					<figure class="hostingcardFigureImg">
+				<article class="hostingcardMain">
+					<figure class="hostingcardFigureImg"><a href="#">
 						<img src="images/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg" alt="Image de Notre-Dame-de-la-Garde" />
 						<figcaption>Notre-Dame-de-la-Garde</figcaption>
-					</figure>
+					</a></figure>
 				</article>
 
-				<article class="hostingcardMain"><a href="#">
-					<figure class="hostingcardFigureImg">
+				<article class="hostingcardMain">
+					<figure class="hostingcardFigureImg"><a href="#">
 						<img src="images/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg" alt="Image du Parc Longchamp" />
 						<figcaption>Parc Longchamp</figcaption>
-					</figure>
+					</a></figure>
 				</article>
+			</div>
 			</section>
 
 
 		</main>
+
 		<!--Fin de page-->
 		<footer class="footer">
-		<!--A propos-->
-			<section class="findepage">
-				<h2>A propos</h2>
-				<p>Fonctionnement du site<br /><br />
-				Conditions générales de vente<br /><br />
-				Données et confidentialité</p>
+			<!--A propos-->
+			
+			<div class="Blocfooter">
+				<h3>A propos</h3>
+				<a href="#" class="BlocFooterLien">Fonctionnement du site</a>
+				<a href="#" class="BlocFooterLien">Conditions générales de vente</a>
+				<a href="#" class="BlocFooterLien">Données et confidentialité</a>
+			</div>
 
 			<!--Nos hébergements-->
-				<h2>Nos hébergements</h2>
-				<p>Charte qualité<br /><br />
-				Soumettre votre hôtel</p>
+			<div class="Blocfooter">
+				<h3>Nos hébergements</h3>
+				<a href="#" class="BlocFooterLien">Charte qualité</a>
+				<a href="#" class="BlocFooterLien">Soumettre votre hôtel</a>
+			</div>
 
 			<!--Assistance-->
-				<h2>Assistance</h2>
-				<p>Centre d'aide<br /><br />
-				Nous contacter</p>
-			</section>
+			<div class="Blocfooter">
+				<h3>Assistance</h3>
+				<a href="#" class="BlocFooterLien">Centre d'aide</a>
+				<a href="#" class="BlocFooterLien">Nous contacter</a>
+			</div>
+			
 		</footer>
 	</div>
 </body>
