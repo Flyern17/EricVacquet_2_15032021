@@ -9,27 +9,31 @@
 }
 body
 {
-    width: 1440px;
+   
 }
 
 .header 
 {
     display: flex;
-    background: gray;
-    padding: 5px;
-    height: 100px;
+    background: white;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    height: ;
     font-size: 15px;
+    max-width: 1440px;
+    margin: auto;
 }
 
 .header img 
 {
-    display: flex;
+    
 }
 
 .header-nav
 {
-    margin: 10px 0;
-    text-align: end;
+    
+    
 }
 
 .header-nav a
@@ -42,7 +46,7 @@ body
 
 .header-nav a:hover
 {
-    border-top: 3px solid #0065FC;
+    border-top: 5px solid #0065FC;
     color: #0065FC;
     padding: 2rem;
 }
@@ -55,8 +59,54 @@ body
 
 main
 {
-    background: lightgrey;
-    padding: 20px;
+    padding: 5px;
+    max-width: 1440px;
+    margin: auto;
+}
+
+.TitleSearchBar
+{
+    color: black;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.SousTitleSearchBar
+{
+    margin-top: -20px;
+}
+
+.searchForm {
+    display: inline-flex;
+    max-width: 100%;
+    align-items: center;
+}
+
+.searchBarIcon
+{
+    color: black;
+    background-color: #f2f2f2;
+    padding: 16px 20px;
+    border-radius: 1rem 0 0 1rem;
+    height: 1em;
+    width: 1em;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+
+}
+
+.searchFormInput
+{
+    padding: 1rem;
+    border-left: none;
+    border-right: none;
+    border-top: 1px solid #f2f2f2;
+    border-bottom: 1px solid #f2f2f2;
+    padding: 16px 24px;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: "Raleway";
 }
 
 .buttonSearch
@@ -64,9 +114,71 @@ main
     color: white;
     background-color: #0065FC;
     font-size: 15px;
-    padding: 10px;
+    padding: 16px;
     border-radius: 0 1rem 1rem 0;
     border: 1px solid #0065FC; 
+}
+
+.Filter
+{
+    display: inline-flex;
+    flex-wrap: wrap;
+
+}
+
+.Icone
+{
+    border: 2px solid lightgray;
+    border-radius: 2rem 2rem 2rem 2rem;
+    margin: 0.5rem 1rem;
+    cursor: pointer;
+
+}
+.Icon
+{
+    height: 3em;
+    width: 3em;
+    border: 0px solid black;
+    border-radius: 100%;
+    color: #0065FC;
+    background-color: #DEEBFF;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin: -3px;
+}
+
+.icone:hover
+{
+    
+}
+
+.filters
+{
+    font-weight: bold;
+    padding-right: 1em;
+    padding-left: 1em;
+}
+
+.rechercheicon
+{
+    color: #0065FC;
+    border: 1px solid lightgray;
+    border-radius: 100%;
+    width: 2rem;
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 1rem;
+}
+
+.information
+{
+    display: inline-flex;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    align-items: center;
 }
 
 .coeur
@@ -77,8 +189,28 @@ main
 
 .coeur img
 {
-    width: 250px;
-    height: 120px; 
+    height: 7rem;
+    object-fit: cover;
+    max-width: 100%;
+}
+
+.hosting
+{
+    border: 1px solid red;
+    background-color: lightgray;
+    border-radius: 1em;
+    width: 100%;
+    
+
+}
+
+.hostingcardMain
+{
+    background-color: white;
+    border: 5px double black;
+    border-radius: 1em;
+    width: 25%;
+    display: flex;
 }
 
 .filter
