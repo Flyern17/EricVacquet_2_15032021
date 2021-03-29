@@ -38,7 +38,7 @@
 					</span>
 					<!--Barre de recherche-->
 					<p>
-						<input class="searchFormInput" type="search" placeholder="Marseille, France" size="" />
+						<input class="searchFormInput" type="search" placeholder="Marseille, France" />
 					</p>
 					<!--Bouton de recherche-->
 					<button class="buttonSearch">
@@ -98,7 +98,7 @@
 			<!--Coeur de la page-->
 		<section class="coeur">
 			<div class="hosting">
-				<div id="hebergement">
+				<div class="hebergement">
 					<h2>Hébergement à Marseille</h2>
 				</div>
 				<!--1er cadre-->
@@ -200,54 +200,61 @@
 			</div>
 
 			<!--Les plus populaires-->
-			<div class="hosting">
-				<div>
+			<div class="hostingPopular">
+				<div class="Popular">
 					<h2>Les plus populaires</h2>
 				</div>
 
-				<article class="hostingcardMain"><a href="#">
-					<figure class="hostingcardFigureImg">
-						<img src="images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg" alt="Image d'un lit double avec une glace au dessus" />
-						<figcaption>Hôtel Le soleil du matin</figcaption>
-					</figure>
-					<p>Nuit à partir de 128€</p>
-					<div class="hostingcardGradeIcon">
-						<i class="fas fa-star" data-active="true"></i>
-						<i class="fas fa-star" data-active="true"></i>
-						<i class="fas fa-star" data-active="true"></i>
-						<i class="fas fa-star" data-active="true"></i>
-						<i class="fas fa-star" data-active="true"></i>
-				</a>
+				<article class="hostingcardMain">
+					<a href="#">
+						<figure class="hostingcardFigureImg">
+							<img src="images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg" alt="Image d'un lit double avec une glace au dessus" />
+							<figcaption>Hôtel Le soleil du matin</figcaption>
+						</figure>
+					</a>
+						<p>Nuit à partir de 128€</p>
+						<div class="hostingcardGradeIcon">
+							<i class="fas fa-star" data-active="true"></i>
+							<i class="fas fa-star" data-active="true"></i>
+							<i class="fas fa-star" data-active="true"></i>
+							<i class="fas fa-star" data-active="true"></i>
+							<i class="fas fa-star" data-active="true"></i>
+						</div>
+					
 				</article>
 
-				<article class="hostingcardMain"><a href="#">
-					<figure class="hostingcardFigureImg">
-						<img src="images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg" alt="Image d'un lit double facon moderne" />
-						<figcaption>Au coeur de l'eau<br /> Chambres d'hôtes</figcaption>
-					</figure>
-					<p>Nuit à partir de 71€</p>
-					<div class="hostingcardGradeIcon">
-						<i class="fas fa-star" data-active="true"></i>
-						<i class="fas fa-star" data-active="true"></i>
-						<i class="fas fa-star" data-active="true"></i>
-						<i class="fas fa-star" data-active="true"></i>
-						<i class="fas fa-star" data-active="false"></i>
-				</a>
+				<article class="hostingcardMain">
+					<a href="#">
+						<figure class="hostingcardFigureImg">
+							<img src="images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg" alt="Image d'un lit double facon moderne" />
+							<figcaption>Au coeur de l'eau<br /> Chambres d'hôtes</figcaption>
+						</figure>
+					</a>
+						<p>Nuit à partir de 71€</p>
+						<div class="hostingcardGradeIcon">
+							<i class="fas fa-star" data-active="true"></i>
+							<i class="fas fa-star" data-active="true"></i>
+							<i class="fas fa-star" data-active="true"></i>
+							<i class="fas fa-star" data-active="true"></i>
+							<i class="fas fa-star" data-active="false"></i>
+						</div>
 				</article>
 
-				<article class="hostingcardMain"><a href="#">
-					<figure class="hostingcardFigureImg">
-						<img src="images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg" alt="Image de deux lits simples avec un téléviseur" />
-						<figcaption>Hôtel Tout bleu et blanc</figcaption>
-					</figure>
-					<p>Nuit à partir de 68€</p>
-					<div class="hostingcardGradeIcon">
-						<i class="fas fa-star" data-active="true"></i>
-						<i class="fas fa-star" data-active="true"></i>
-						<i class="fas fa-star" data-active="true"></i>
-						<i class="fas fa-star" data-active="true"></i>
-						<i class="fas fa-star" data-active="false"></i>
-				</a>
+				<article class="hostingcardMain">
+					<a href="#">
+						<figure class="hostingcardFigureImg">
+							<img src="images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg" alt="Image de deux lits simples avec un téléviseur" />
+							<figcaption>Hôtel Tout bleu et blanc</figcaption>
+						</figure>
+					</a>
+						<p>Nuit à partir de 68€</p>
+						<div class="hostingcardGradeIcon">
+							<i class="fas fa-star" data-active="true"></i>
+							<i class="fas fa-star" data-active="true"></i>
+							<i class="fas fa-star" data-active="true"></i>
+							<i class="fas fa-star" data-active="true"></i>
+							<i class="fas fa-star" data-active="false"></i>
+						</div>
 				</article>
 			</div>
 		</section>
@@ -261,46 +268,58 @@
 			<div class="element-activite">
 				<article class="hostingcardMain">
 					
-					<figure class="hostingcardFigureImg"><a href="#">
-						<img src="images/activites/3_medium/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" alt="Image du Vieux Port" />
-						<figcaption>Vieux Port</figcaption>
-					</a></figure>
+					<figure class="hostingcardFigureImg">
+						<a href="#">
+							<img src="images/activites/3_medium/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" alt="Image du Vieux Port" />
+							<figcaption>Vieux Port</figcaption>
+						</a>
+					</figure>
 					
 				</article>
 
 				<article class="hostingcardMain">
-					<figure class="hostingcardFigureImg"><a href="#">
-						<img src="images/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg" alt="Image du Fort de Pomègues" />
-						<figcaption>Fort de Pomègues</figcaption>
-					</a></figure>
+					<figure class="hostingcardFigureImg">
+						<a href="#">
+							<img src="images/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg" alt="Image du Fort de Pomègues" />
+							<figcaption>Fort de Pomègues</figcaption>
+						</a>
+					</figure>
 				</article>
 
 				<article class="hostingcardMain">
-					<figure class="hostingcardFigureImg"><a href="#">
-						<img src="images/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg" alt="Image de l'ile de Frioul au loin" />
-						<figcaption>Ile de Frioul</figcaption>
-					</a></figure>
+					<figure class="hostingcardFigureImg">
+						<a href="#">
+							<img src="images/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg" alt="Image de l'ile de Frioul au loin" />
+							<figcaption>Ile de Frioul</figcaption>
+						</a>
+					</figure>
 				</article>
 
 				<article class="hostingcardMain">
-					<figure class="hostingcardFigureImg"><a href="#">
-						<img src="images/activites/3_medium/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg" alt="Image des calanques du parc Nationnal des calanques" />
-						<figcaption>Parc Nationnal des Calanques</figcaption>
-					</a></figure>
+					<figure class="hostingcardFigureImg">
+						<a href="#">
+							<img src="images/activites/3_medium/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg" alt="Image des calanques du parc Nationnal des calanques" />
+							<figcaption>Parc Nationnal des Calanques</figcaption>
+						</a>
+					</figure>
 				</article>
 
 				<article class="hostingcardMain">
-					<figure class="hostingcardFigureImg"><a href="#">
-						<img src="images/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg" alt="Image de Notre-Dame-de-la-Garde" />
-						<figcaption>Notre-Dame-de-la-Garde</figcaption>
-					</a></figure>
+					<figure class="hostingcardFigureImg">
+						<a href="#">
+							<img src="images/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg" alt="Image de Notre-Dame-de-la-Garde" />
+							<figcaption>Notre-Dame-de-la-Garde</figcaption>
+						</a>
+					</figure>
 				</article>
 
 				<article class="hostingcardMain">
-					<figure class="hostingcardFigureImg"><a href="#">
-						<img src="images/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg" alt="Image du Parc Longchamp" />
-						<figcaption>Parc Longchamp</figcaption>
-					</a></figure>
+					<figure class="hostingcardFigureImg">
+						<a href="#">
+							<img src="images/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg" alt="Image du Parc Longchamp" />
+							<figcaption>Parc Longchamp</figcaption>
+						</a>
+					</figure>
 				</article>
 			</div>
 			</section>

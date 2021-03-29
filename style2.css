@@ -148,7 +148,7 @@ main
     margin: -3px;
 }
 
-.icone:hover
+.Icone:hover
 {
     
 }
@@ -158,6 +158,11 @@ main
     font-weight: bold;
     padding-right: 1em;
     padding-left: 1em;
+}
+
+.filter
+{
+   
 }
 
 .rechercheicon
@@ -175,7 +180,7 @@ main
 
 .information
 {
-    display: inline-flex;
+    display: flex;
     margin-top: 1em;
     margin-bottom: 1em;
     align-items: center;
@@ -184,7 +189,6 @@ main
 .coeur
 {
     display: flex;
-    flex-wrap: wrap;
 }
 
 .coeur img
@@ -194,13 +198,47 @@ main
     max-width: 100%;
 }
 
+.hebergement
+{
+    display: flex;
+    align-self: flex-start;
+    padding-right: 50%;
+    font-weight: bold;
+}
+
 .hosting
 {
     border: 1px solid red;
     background-color: lightgray;
     border-radius: 1em;
-    width: 100%;
+    width: 66%;
+    display: flex;
+    justify-content: space-around;
+    align-content: flex-start;
+    flex-wrap: wrap;
+    align-items: flex-start;
     
+
+}
+
+.Popular
+{
+    display: flex;
+    align-self: flex-start;
+    padding-right: 50%;
+    font-weight: bold;
+}
+
+.hostingPopular
+{
+    border: 1px solid red;
+    background-color: lightgray;
+    border-radius: 1em;
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
 
 }
 
@@ -209,14 +247,11 @@ main
     background-color: white;
     border: 5px double black;
     border-radius: 1em;
-    width: 25%;
+    width: 30%;
     display: flex;
 }
 
-.filter
-{
-    display: inline-block;
-}
+
 
 .element-activite {
     display: flex;
