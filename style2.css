@@ -1,7 +1,4 @@
-@font-face {
-	font-family: 'Raleway';
-	src: url('Raleway/static/Raleway-Regular.ttf') format('truetype');
-}
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800;900&display=swap");
 
 *   /*Police*/
 {
@@ -113,11 +110,22 @@ main
     border: 1px solid #0065FC; 
 }
 
+.FilterTotal
+{
+    display: flex;
+}
+
+.FilterTitle
+{
+    margin: 1em 1em;
+}
+
 .Filter
 {
     display: inline-flex;
     flex-wrap: wrap;
-
+    transition: all 0.2s linear;
+    align-items: center;
 }
 
 .Icone
@@ -126,8 +134,16 @@ main
     border-radius: 2rem 2rem 2rem 2rem;
     margin: 0.5rem 1rem;
     cursor: pointer;
+    
 
 }
+
+.Icone:hover
+{
+    transform: scale(1.05);
+    transition: all 0.2s linear;
+}
+
 .Icon
 {
     height: 3em;
@@ -181,11 +197,13 @@ main
     height: auto;
     box-sizing: border-box;
     background-color: white;
+    display: flex;
 }
 
 .cardMain
 {
     border: 1px solid red;
+    border-radius: 1em;
     background-color: lightgray;
     height: auto;
     margin-bottom: 30px;
@@ -194,21 +212,24 @@ main
 .hebergement
 {
     padding-left: 3%;
-    margin-bottom: 3%;
+    margin: 5px 5px;
     font-weight: bold;
+    margin-bottom: 0;
 }
 
-figure > img
+figure
+{
+    margin: 0;
+}
+
+.hostingcardFigureImg > img
 {
     width: 100%;
     height: 110px;
-    object-fit: cover
+    object-fit: cover;
+    border-radius: 1em 1em 0 0;
 }
 
-article > figure
-{
-    width: ;
-}
 
 .hosting
 {
@@ -222,21 +243,20 @@ article > figure
 .hostingcardMain
 {
     background-color: white;
-    border: 5px double black;
     border-radius: 1em;
     width: 26%;
     height: auto;
     padding: 5px;
-    margin: 20px;
+    margin: 10px 15px;
     display: flex;
     flex-direction: column;
-    justify-content: 
 }
 
 article figcaption
 {
     font-weight: bold;
-    font-size: 16px;
+    font-size: 18.72px;
+    padding-left: 2%;
 } 
 
 .descriptionHostingCard
@@ -244,10 +264,25 @@ article figcaption
     font-size: 14px;
     display: flex;
     flex-direction: column;
-    padding-left: 11%;
-
+    padding-left: 2%;
+    line-height: 0.2rem;
+    margin: 0;
 }
 
+.descriptionCardPrice
+{
+    margin: 10px 0;    
+}
+
+.footerCardMain
+{
+    font-weight: bold;
+    padding-left: 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* Les plus populaires */
 .hostingPopular
 {
     border: 1px solid red;
