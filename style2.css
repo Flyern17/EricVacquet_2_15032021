@@ -189,32 +189,43 @@ main
     align-items: center;
 }
 
-.coeur
+.MainPage
 {
-    padding: 0px 1.5rem;
     width: 100%;
-    margin: 0px auto;
-    height: auto;
-    box-sizing: border-box;
-    background-color: white;
-    display: flex;
+    display:flex;
+    justify-content: space-between;
+
 }
 
 .cardMain
 {
-    border: 1px solid red;
     border-radius: 1em;
-    background-color: lightgray;
+    background-color: #f2f2f2;
     height: auto;
+    width: 64%;
     margin-bottom: 30px;
+}
+
+.hostingPopular
+{
+    border: 1px solid red;
+    background-color: lightgray;
+    border-radius: 1em;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+    width: 33%;
+
 }
 
 .hebergement
 {
-    padding-left: 3%;
     margin: 5px 5px;
     font-weight: bold;
     margin-bottom: 0;
+    padding: 0 15px;
 }
 
 figure
@@ -252,10 +263,16 @@ figure
     flex-direction: column;
 }
 
+.hostingcardMain:hover
+{
+    transform: scale(1.025);
+    transition: all 0.2s linear;
+}
+
 article figcaption
 {
     font-weight: bold;
-    font-size: 18.72px;
+    font-size: 18px;
     padding-left: 2%;
 } 
 
@@ -274,26 +291,27 @@ article figcaption
     margin: 10px 0;    
 }
 
+.hostingcardGradeIcon [data-active="true"]
+{
+    color: #0065FC;
+}
+
+.hostingcardGradeIcon [data-active="false"]
+{
+    color: #f2f2f2;
+}
+
 .footerCardMain
 {
     font-weight: bold;
     padding-left: 20px;
     font-size: 16px;
     cursor: pointer;
+    display: flex;
+    justify-content: flex-start;
 }
 
 /* Les plus populaires */
-.hostingPopular
-{
-    border: 1px solid red;
-    background-color: lightgray;
-    border-radius: 1em;
-    height: auto;
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 30px;
-
-}
 
 .Popular
 {
@@ -303,30 +321,59 @@ article figcaption
 
 .cardPopular
 {
-    width: 100%;
-    height: auto;
     display: flex;
-    flex-wrap: wrap;
     flex-direction: row;
-    margin: 0px auto;
-    justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 
 .hostingcardPopular
 {
-    width: 80%;
-    height: 25%;
-    display: flex;
-    flex-direction: row;
-    padding: 5px;
-    margin: 15px;
     background-color: white;
-    border-radius: 20px 20px 20px 20px;
-    text-decoration: none;
-    color: black;
-    border: 5px double black
+    border-radius: 1em;
+    width: 100%;
+    height: auto;
+    padding: 5px;
+    margin: 10px 15px;
+
 }
 
+.hostingcardPopular:hover
+{
+    transform: scale(1.025);
+    transition: all 0.2s linear;
+}
+
+.PopularImage
+{
+    width: 100%;
+    height: 125px;
+    object-fit: cover;
+    border-radius: 1rem 0 0 1rem;
+}
+
+.hostingcardPopular a
+{
+    display: flex;
+}
+
+.PopularImag
+{
+    width: 50%;
+}
+
+.descriptionCardPopular
+{
+    width: 50%;
+    padding-left: 10px;
+    padding-top: 10px;
+    line-height: 1rem;
+}
+
+.descriptionTitle
+{
+    font-weight: bold;
+    font-size: 18px;
+}
 
 .element-activite {
     display: flex;
