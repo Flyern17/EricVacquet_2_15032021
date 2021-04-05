@@ -208,8 +208,7 @@ main
 
 .hostingPopular
 {
-    border: 1px solid red;
-    background-color: lightgray;
+    background-color: #f2f2f2;
     border-radius: 1em;
     height: auto;
     display: flex;
@@ -316,7 +315,12 @@ article figcaption
 .Popular
 {
     padding-left: 3%;
+    width: 100%;
     font-weight: bold;
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+
 }
 
 .cardPopular
@@ -324,6 +328,12 @@ article figcaption
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+}
+
+#PopularIcone
+{
+    font-size: 1.5rem;
+    padding-right: 20px;
 }
 
 .hostingcardPopular
@@ -374,6 +384,8 @@ article figcaption
     font-weight: bold;
     font-size: 18px;
 }
+
+/** Activités **/
 
 .element-activite {
     display: flex;
