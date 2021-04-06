@@ -252,6 +252,7 @@ figure
 
 .hostingcardMain
 {
+    box-shadow: 0 0 20px #0000002e;
     background-color: white;
     border-radius: 1em;
     width: 26%;
@@ -338,6 +339,7 @@ article figcaption
 
 .hostingcardPopular
 {
+    box-shadow: 0 0 20px #0000002e;
     background-color: white;
     border-radius: 1em;
     width: 100%;
@@ -389,29 +391,76 @@ article figcaption
 
 .element-activite {
     display: flex;
+    flex-direction: column;
     flex-wrap: wrap;
+    margin: auto;
+
+    width: 100%;
+    height: 600px;
 }
 
 .element-activite article {
-    flex: 0 0 25%; 
+    box-shadow: 0 0 20px #0000002e; 
+    border-radius: 1em;
+    width: 22%;
+    height: auto;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.element-activite article:hover {
+    transform: scale(1.025);
+    transition: all 0.2s linear;
 }
 
 .element-activite article img {
-    width: 200px;
+    width: 320px;
+}
+
+.element-activite article .hostingcardFigureImgBig img
+{
+    height: 500px;
+    object-fit: cover;
+}
+
+.element-activite article .hostingcardFigureImgMedium img
+{
+    height: 260px;
+    object-fit: cover;
+    
+}
+
+.element-activite article .hostingcardFigureImgSmall img
+{
+    height: 175px;
+    object-fit: cover;
+}
+
+.element-activite figcaption 
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
 }
 
 footer
 {
+    background: #f2f2f2;  
+}
+
+.CardFooter
+{
     display: flex;
-    justify-content: space-around;
-    background: #f2f2f2;   
+    justify-content: space-around; 
     padding: 10px 20px;
+    margin: auto;
+    width: 1440px;
 }
 
 footer .Blocfooter {
     width: 30%;
     padding: 2rem 2rem;
-    border: 1px solid black;
 }
 
 footer a
@@ -428,7 +477,7 @@ footer a:hover
     text-decoration: underline;
 }
 
-.BlocFooterLien
+h3
 {
-
+    padding-left: 16px;
 }
