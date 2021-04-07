@@ -5,8 +5,32 @@
 	font-family: "Raleway" , sans-serif;
 }
 
-@media screen {max-width: 700px;
-    
+
+
+@media screen and (max-width: 600px) {
+    header {
+
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .activites {
+
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    .MainPage {
+        
+    }
+
+    .cardMain {
+        order: 2;
+    }
+
+    .hostingPopular {
+        order: 1;
+    }
 }
 
 body
@@ -471,7 +495,7 @@ footer
     justify-content: space-around; 
     padding: 10px 20px;
     margin: auto;
-    width: 1440px;
+    max-width: 1440px;
 }
 
 footer .Blocfooter {
