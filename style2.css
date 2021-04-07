@@ -306,7 +306,7 @@ figure
     transition: all 0.2s linear;
 }
 
-article figcaption
+.hosting figcaption
 {
     font-weight: bold;
     font-size: 18px;
@@ -436,7 +436,7 @@ article figcaption
     height: 600px;
 }
 
-.element-activite article {
+.element-activite .hostingcardActivities {
     box-shadow: 0 0 20px #0000002e; 
     border-radius: 1em;
     width: 22%;
@@ -445,29 +445,29 @@ article figcaption
     margin-bottom: 20px;
 }
 
-.element-activite article:hover {
+.element-activite .hostingcardActivities:hover {
     transform: scale(1.025);
     transition: all 0.2s linear;
 }
 
-.element-activite article img {
+.element-activite .hostingcardActivities img {
     width: 320px;
 }
 
-.element-activite article .hostingcardFigureImgBig img
+.element-activite .hostingcardActivities .hostingcardFigureImgBig img
 {
     height: 500px;
     object-fit: cover;
 }
 
-.element-activite article .hostingcardFigureImgMedium img
+.element-activite .hostingcardActivities .hostingcardFigureImgMedium img
 {
     height: 260px;
     object-fit: cover;
     
 }
 
-.element-activite article .hostingcardFigureImgSmall img
+.element-activite .hostingcardActivities .hostingcardFigureImgSmall img
 {
     height: 175px;
     object-fit: cover;
@@ -521,3 +521,4 @@ h3
 {
     padding-left: 16px;
 }
+
