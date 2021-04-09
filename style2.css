@@ -7,32 +7,6 @@
 
 
 
-@media screen and (max-width: 600px) {
-    header {
-
-    }
-}
-
-@media screen and (max-width: 1000px) {
-    .activites {
-
-    }
-}
-
-@media screen and (max-width: 1100px) {
-    .MainPage {
-        
-    }
-
-    .cardMain {
-        order: 2;
-    }
-
-    .hostingPopular {
-        order: 1;
-    }
-}
-
 body
 {
    font-size: 15px;
@@ -144,7 +118,6 @@ main
 .buttonSearch [data-active="false"]
 {
     color: #0065FC;
-
 }
 
 .FilterTotal
@@ -298,6 +271,7 @@ figure
     margin: 10px 15px;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
 }
 
 .hostingcardMain:hover
@@ -384,6 +358,7 @@ figure
     padding: 5px;
     margin: 10px 15px;
 
+
 }
 
 .hostingcardPopular:hover
@@ -423,6 +398,8 @@ figure
     font-weight: bold;
     font-size: 18px;
 }
+
+
 
 /** Activités **/
 
@@ -522,3 +499,168 @@ h3
     padding-left: 16px;
 }
 
+
+
+
+@media screen and (max-width: 800px) {
+   
+    .header {
+        height: auto;
+        display: flex;
+        margin-bottom: 0px;
+    }
+
+    .headerimage {
+        position: absolute;
+        top: 15px;
+        left: 10px;
+       
+    }
+
+    .header-nav {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-top: 40px;
+
+    }
+
+    .TitleSearchBar {
+        margin-top: 0px;
+    }
+
+    .inscription {
+        position: absolute;
+        top: 0;
+        right: 0;
+        padding: 0;
+    }
+
+    .header-nav a:hover {
+        border-top: none;
+    }
+
+    .header-nav a:hover {
+        border-bottom: 3px solid #0065FC;
+        padding-bottom: 17px;
+    }
+
+    .header-nav .inscription:hover {
+        border-bottom: 0;
+    }
+
+    .SousTitleSearchBar {
+        font-size: 18px;
+    }
+
+    .buttonSearch {
+        color: #0065FC;
+        font-size: 0;
+    }
+
+    .searchFormInput {
+        width: 350px;
+    }
+
+
+    .buttonSearch [data-active="false"]
+    {
+        color: white;
+        font-size: 16px;
+    }
+
+    .MainPage {
+        flex-direction: column;
+    }
+
+    .Icone {
+        margin: 0.5rem 0.5rem;
+    }
+
+    .cardMain {
+        order: 2;
+        width: 100%;
+    }
+
+    .hosting {
+        justify-content: center;
+    }
+
+    .hostingPopular {
+        order: 1;
+        width: 100%;
+    }
+
+    .hosting {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .hostingcardMain {
+        width: 92%;
+    }
+
+    .element-activite {
+        height: auto;
+        align-items: center;
+    }
+
+    .hostingcardActivities {
+        width: 100%;
+        height: auto;
+    }
+
+    .element-activite .hostingcardActivities {
+        width: 90%;
+        height: auto;
+    }
+
+    .element-activite .hostingcardActivities .hostingcardFigureImgBig img {
+        width: 100%;
+        height: 125px;
+    }
+
+    .element-activite .hostingcardActivities .hostingcardFigureImgMedium img {
+        width: 100%;
+        height: 125px;
+    }
+
+    .element-activite .hostingcardActivities .hostingcardFigureImgSmall img {
+        width: 100%;
+        height: 125px;
+    }
+
+    .CardFooter {
+        flex-direction: column;
+    }
+
+    footer .Blocfooter {
+        width: 100%;
+        padding: 0.5rem 1rem;
+    }
+}
+
+@media screen and (max-width: 1100px) and (min-width: 800px) {
+
+    .MainPage {
+        flex-direction: column;
+    }
+
+    .cardMain {
+        order: 2;
+        width: 100%;
+    }
+
+    .hosting {
+        justify-content: center;
+    }
+
+    .hostingPopular {
+        order: 1;
+        width: 100%;
+    }
+
+    .cardPopular {
+        flex-wrap: nowrap;
+    }
+}
