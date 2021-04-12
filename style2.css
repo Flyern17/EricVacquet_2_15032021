@@ -229,7 +229,7 @@ main
 
 }
 
-.hebergement
+#hebergement
 {
     margin: 5px 5px;
     font-weight: bold;
@@ -389,9 +389,14 @@ figure
 {
     width: 50%;
     padding-left: 10px;
-    padding-top: 10px;
+    padding-top: 0;
     line-height: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
+
+
 
 .descriptionTitle
 {
@@ -559,7 +564,7 @@ h3
     }
 
     .searchFormInput {
-        width: 350px;
+        width: 250px;
     }
 
 
@@ -663,4 +668,10 @@ h3
     .cardPopular {
         flex-wrap: nowrap;
     }
+
+    .descriptionCardPopular
+    {
+
+    }
+
 }
