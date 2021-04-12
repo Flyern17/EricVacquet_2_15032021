@@ -105,13 +105,13 @@ main
 
 .buttonSearch
 {
-    color: white;
+    color:white;
     font-weight: bold;
     background-color: #0065FC;
     font-size: 15px;
     padding: 16px;
     border-radius: 0 1rem 1rem 0;
-    border: 1px solid #0065FC; 
+    border: none; 
     cursor: pointer;
 }
 
