@@ -622,6 +622,10 @@ h3
         height: auto;
     }
 
+    .TitleActivities{
+        padding-left: 20px;
+    }
+
     .element-activite .hostingcardActivities {
         width: 90%;
         height: auto;
