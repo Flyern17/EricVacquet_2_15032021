@@ -567,6 +567,9 @@ h3
         width: 230px;
     }
 
+    .FilterTotal {
+        flex-direction: column;
+    }
 
     .buttonSearch [data-active="false"]
     {
