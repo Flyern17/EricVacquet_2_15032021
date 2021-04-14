@@ -508,6 +508,10 @@ h3
 
 
 @media screen and (max-width: 800px) {
+
+    body {
+        margin: 15px;
+    }
    
     .header {
         height: auto;
@@ -605,7 +609,7 @@ h3
     }
 
     .hostingcardMain {
-        width: 92%;
+        width: 87%;
     }
 
     .element-activite {
@@ -670,11 +674,6 @@ h3
 
     .cardPopular {
         flex-wrap: nowrap;
-    }
-
-    .descriptionCardPopular
-    {
-
     }
 
 }
