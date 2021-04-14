@@ -265,13 +265,14 @@ figure
     box-shadow: 0 0 20px #0000002e;
     background-color: white;
     border-radius: 1em;
-    width: 26%;
+    width: calc(33% - 30px);
     height: auto;
     padding: 5px;
     margin: 10px 15px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    box-sizing: border-box;
 }
 
 .hostingcardMain:hover
