@@ -518,6 +518,7 @@ h3
         height: auto;
         display: flex;
         margin-bottom: 0px;
+        padding: 0;
     }
 
     .headerimage {
@@ -530,11 +531,23 @@ h3
     .header-nav {
         width: 100%;
         display: flex;
-        justify-content: center;
+        justify-content: space-around;
         margin-top: 40px;
-
     }
 
+    .header-nav a {
+        border-bottom: 3px solid #f2f2f2;
+        text-align: center;
+    }
+    
+
+    .header-nav .headerHebergement {
+        width: 50%;
+    }
+
+    .header-nav .headerActivities {
+        width: 50%;
+    }
     .TitleSearchBar {
         margin-top: 0px;
     }
@@ -546,6 +559,7 @@ h3
         padding: 0;
     }
 
+
     .header-nav a:hover {
         border-top: none;
     }
@@ -553,6 +567,10 @@ h3
     .header-nav a:hover {
         border-bottom: 3px solid #0065FC;
         padding-bottom: 17px;
+    }
+
+    .header-nav .inscription {
+        border-bottom: 0;
     }
 
     .header-nav .inscription:hover {
@@ -595,10 +613,6 @@ h3
         width: 100%;
     }
 
-    .hosting {
-        justify-content: center;
-    }
-
     .hostingPopular {
         order: 1;
         width: 100%;
@@ -606,6 +620,8 @@ h3
 
     .hosting {
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
         width: 100%;
     }
 
