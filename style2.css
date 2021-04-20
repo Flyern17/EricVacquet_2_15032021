@@ -12,7 +12,7 @@ body
    font-size: 15px;
 }
 
-.header 
+.Header 
 {
     display: flex;
     background: white;
@@ -30,7 +30,7 @@ a
     color: black;
 }
 
-.header-nav a
+.Header-nav a
 {   
     padding: 0 20px;
     color: inherit;
@@ -38,14 +38,14 @@ a
     padding: 2rem;
 }
 
-.header-nav a:hover
+.Header-nav a:hover
 {
     border-top: 5px solid #0065FC;
     color: #0065FC;
     padding: 2rem;
 }
 
-.header-nav a:last-child
+.Header-nav a:last-child
 {
     font-weight: bold;
     color: #0065FC;
@@ -58,25 +58,25 @@ main
     margin: auto;
 }
 
-.TitleSearchBar
+.Title-search-bar
 {
     color: black;
     font-size: 32px;
     font-weight: bold;
 }
 
-.SousTitleSearchBar
+.Sous-title-search-bar
 {
     margin-top: -20px;
 }
 
-.searchForm {
+.Search-form {
     display: inline-flex;
     max-width: 100%;
     align-items: center;
 }
 
-.searchBarIcon
+.Search-bar-icon
 {
     color: black;
     background-color: #f2f2f2;
@@ -90,7 +90,7 @@ main
 
 }
 
-.searchFormInput
+.Search-form-input
 {
     padding: 1rem;
     border-left: none;
@@ -103,7 +103,7 @@ main
     font-family: "Raleway";
 }
 
-.buttonSearch
+.Button-search
 {
     color:white;
     font-weight: bold;
@@ -115,17 +115,17 @@ main
     cursor: pointer;
 }
 
-.buttonSearch [data-active="false"]
+.Button-search [data-active="false"]
 {
     color: #0065FC;
 }
 
-.FilterTotal
+.Filter-total
 {
     display: flex;
 }
 
-.FilterTitle
+.Filter-title
 {
     margin: 1em 1em;
 }
@@ -170,7 +170,7 @@ main
 
 
 
-.filters
+.Filters
 {
     font-weight: bold;
     padding-right: 1em;
@@ -178,7 +178,7 @@ main
 }
 
 
-.rechercheicon
+.Recherche-icon
 {
     color: #0065FC;
     border: 1px solid lightgray;
@@ -191,7 +191,7 @@ main
     margin-right: 1rem;
 }
 
-.information
+.Information
 {
     display: flex;
     margin-top: 1em;
@@ -199,7 +199,7 @@ main
     align-items: center;
 }
 
-.MainPage
+.Main-page
 {
     width: 100%;
     display:flex;
@@ -207,7 +207,7 @@ main
 
 }
 
-.cardMain
+.Card-main
 {
     border-radius: 1em;
     background-color: #f2f2f2;
@@ -216,7 +216,7 @@ main
     margin-bottom: 30px;
 }
 
-.hostingPopular
+.Hosting-popular
 {
     background-color: #f2f2f2;
     border-radius: 1em;
@@ -229,7 +229,7 @@ main
 
 }
 
-#hebergement
+#Hebergement
 {
     margin: 5px 5px;
     font-weight: bold;
@@ -242,7 +242,7 @@ figure
     margin: 0;
 }
 
-.hostingcardFigureImg > img
+.Hosting-card-figure-img > img
 {
     width: 100%;
     height: 110px;
@@ -251,7 +251,7 @@ figure
 }
 
 
-.hosting
+.Hosting
 {
     width: 100%;
     height: auto;
@@ -260,7 +260,7 @@ figure
     flex-wrap: wrap;
 }
 
-.hostingcardMain
+.Hosting-card-main
 {
     box-shadow: 0 0 20px #0000002e;
     background-color: white;
@@ -275,20 +275,20 @@ figure
     box-sizing: border-box;
 }
 
-.hostingcardMain:hover
+.Hosting-card-main:hover
 {
     transform: scale(1.025);
     transition: all 0.2s linear;
 }
 
-.hosting figcaption
+.Hosting figcaption
 {
     font-weight: bold;
     font-size: 18px;
     padding-left: 2%;
 } 
 
-.descriptionHostingCard
+.Description-hosting-card
 {
     font-size: 14px;
     display: flex;
@@ -298,22 +298,22 @@ figure
     margin: 0;
 }
 
-.descriptionCardPrice
+.Description-card-price
 {
     margin: 10px 0;    
 }
 
-.hostingcardGradeIcon [data-active="true"]
+.Hosting-card-grade-icon [data-active="true"]
 {
     color: #0065FC;
 }
 
-.hostingcardGradeIcon [data-active="false"]
+.Hosting-card-grade-icon [data-active="false"]
 {
     color: #f2f2f2;
 }
 
-.footerCardMain
+.Footer-card-main
 {
     font-weight: bold;
     padding-left: 20px;
@@ -336,20 +336,20 @@ figure
 
 }
 
-.cardPopular
+.Card-popular
 {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
 }
 
-#PopularIcone
+#Popular-icone
 {
     font-size: 1.5rem;
     padding-right: 20px;
 }
 
-.hostingcardPopular
+.Hosting-card-popular
 {
     box-shadow: 0 0 20px #0000002e;
     background-color: white;
@@ -359,16 +359,15 @@ figure
     padding: 5px;
     margin: 10px 15px;
 
-
 }
 
-.hostingcardPopular:hover
+.Hosting-card-popular:hover
 {
     transform: scale(1.025);
     transition: all 0.2s linear;
 }
 
-.PopularImage
+.Popular-image
 {
     width: 100%;
     height: 125px;
@@ -376,17 +375,17 @@ figure
     border-radius: 1rem 0 0 1rem;
 }
 
-.hostingcardPopular a
+.Hosting-card-popular a
 {
     display: flex;
 }
 
-.PopularImag
+.Popular-img
 {
     width: 50%;
 }
 
-.descriptionCardPopular
+.Description-card-popular
 {
     width: 50%;
     padding-left: 10px;
@@ -399,7 +398,7 @@ figure
 
 
 
-.descriptionTitle
+.Description-title
 {
     font-weight: bold;
     font-size: 18px;
@@ -409,17 +408,16 @@ figure
 
 /** Activités **/
 
-.element-activite {
+.Element-activite {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     margin: auto;
-
     width: 100%;
     height: 600px;
 }
 
-.element-activite .hostingcardActivities {
+.Element-activite .Hosting-card-activities {
     box-shadow: 0 0 20px #0000002e; 
     border-radius: 1em;
     width: 22%;
@@ -428,35 +426,35 @@ figure
     margin-bottom: 20px;
 }
 
-.element-activite .hostingcardActivities:hover {
+.Element-activite .Hosting-card-activities:hover {
     transform: scale(1.025);
     transition: all 0.2s linear;
 }
 
-.element-activite .hostingcardActivities img {
+.Element-activite .Hosting-card-activities img {
     width: 320px;
 }
 
-.element-activite .hostingcardActivities .hostingcardFigureImgBig img
+.Element-activite .Hosting-card-activities .Hosting-card-figure-img-big img
 {
     height: 500px;
     object-fit: cover;
 }
 
-.element-activite .hostingcardActivities .hostingcardFigureImgMedium img
+.Element-activite .Hosting-card-activities .Hosting-card-figure-img-medium img
 {
     height: 260px;
     object-fit: cover;
     
 }
 
-.element-activite .hostingcardActivities .hostingcardFigureImgSmall img
+.Element-activite .Hosting-card-activities .Hosting-card-figure-img-small img
 {
     height: 175px;
     object-fit: cover;
 }
 
-.element-activite span
+.Element-activite span
 {
     font-size: 18px;
     font-weight: bold;
@@ -467,12 +465,12 @@ figure
     height: 40px;
 }
 
-footer
+Footer
 {
     background: #f2f2f2;  
 }
 
-.CardFooter
+.Card-footer
 {
     display: flex;
     justify-content: space-around; 
@@ -481,12 +479,12 @@ footer
     max-width: 1440px;
 }
 
-footer .Blocfooter {
+Footer .Bloc-footer {
     width: 30%;
     padding: 2rem 2rem;
 }
 
-footer a
+Footer a
 {
     display: block;
     text-decoration: none;
@@ -495,7 +493,7 @@ footer a
 
 }
 
-footer a:hover 
+Footer a:hover 
 {
     text-decoration: underline;
 }
@@ -514,45 +512,45 @@ h3
         margin: 15px;
     }
    
-    .header {
+    .Header {
         height: auto;
         display: flex;
         margin-bottom: 0px;
         padding: 0;
     }
 
-    .headerimage {
+    .Header-image {
         position: absolute;
         top: 15px;
         left: 10px;
        
     }
 
-    .header-nav {
+    .Header-nav {
         width: 100%;
         display: flex;
         justify-content: space-around;
         margin-top: 40px;
     }
 
-    .header-nav a {
+    .Header-nav a {
         border-bottom: 3px solid #f2f2f2;
         text-align: center;
     }
     
 
-    .header-nav .headerHebergement {
+    .Header-nav .Header-hebergement {
         width: 50%;
     }
 
-    .header-nav .headerActivities {
+    .Header-nav .Header-activities {
         width: 50%;
     }
-    .TitleSearchBar {
+    .Title-search-bar {
         margin-top: 0px;
     }
 
-    .inscription {
+    .Inscription {
         position: absolute;
         top: 0;
         right: 0;
@@ -560,47 +558,47 @@ h3
     }
 
 
-    .header-nav a:hover {
+    .Header-nav a:hover {
         border-top: none;
     }
 
-    .header-nav a:hover {
+    .Header-nav a:hover {
         border-bottom: 3px solid #0065FC;
         padding-bottom: 17px;
     }
 
-    .header-nav .inscription {
+    .Header-nav .Inscription {
         border-bottom: 0;
     }
 
-    .header-nav .inscription:hover {
+    .Header-nav .Inscription:hover {
         border-bottom: 0;
     }
 
-    .SousTitleSearchBar {
+    .Sous-title-search-bar {
         font-size: 18px;
     }
 
-    .buttonSearch {
+    .Button-search {
         color: #0065FC;
         font-size: 0;
     }
 
-    .searchFormInput {
+    .Search-form-input {
         width: 230px;
     }
 
-    .FilterTotal {
+    .Filter-total {
         flex-direction: column;
     }
 
-    .buttonSearch [data-active="false"]
+    .Button-search [data-active="false"]
     {
         color: white;
         font-size: 16px;
     }
 
-    .MainPage {
+    .Main-page {
         flex-direction: column;
     }
 
@@ -608,66 +606,66 @@ h3
         margin: 0.5rem 0.5rem;
     }
 
-    .cardMain {
+    .Card-main {
         order: 2;
         width: 100%;
     }
 
-    .hostingPopular {
+    .Hosting-popular {
         order: 1;
         width: 100%;
     }
 
-    .hosting {
+    .Hosting {
         flex-direction: column;
         justify-content: center;
         align-items: center;
         width: 100%;
     }
 
-    .hostingcardMain {
+    .Hosting-card-main {
         width: 87%;
     }
 
-    .element-activite {
+    .Element-activite {
         height: auto;
         align-items: center;
     }
 
-    .hostingcardActivities {
+    .Hosting-card-activities {
         width: 100%;
         height: auto;
     }
 
-    .TitleActivities{
+    .Title-activities{
         padding-left: 20px;
     }
 
-    .element-activite .hostingcardActivities {
+    .Element-activite .Hosting-card-activities {
         width: 90%;
         height: auto;
     }
 
-    .element-activite .hostingcardActivities .hostingcardFigureImgBig img {
+    .Element-activite .Hosting-card-activities .Hosting-card-figure-img-big img {
         width: 100%;
         height: 125px;
     }
 
-    .element-activite .hostingcardActivities .hostingcardFigureImgMedium img {
+    .Element-activite .Hosting-card-activities .Hosting-card-figure-img-medium img {
         width: 100%;
         height: 125px;
     }
 
-    .element-activite .hostingcardActivities .hostingcardFigureImgSmall img {
+    .Element-activite .Hosting-card-activities .Hosting-card-figure-img-small img {
         width: 100%;
         height: 125px;
     }
 
-    .CardFooter {
+    .Card-footer {
         flex-direction: column;
     }
 
-    footer .Blocfooter {
+    Footer .Bloc-footer {
         width: 100%;
         padding: 0.5rem 1rem;
     }
@@ -675,25 +673,25 @@ h3
 
 @media screen and (max-width: 1100px) and (min-width: 800px) {
 
-    .MainPage {
+    .Main-page {
         flex-direction: column;
     }
 
-    .cardMain {
+    .Card-main {
         order: 2;
         width: 100%;
     }
 
-    .hosting {
+    .Hosting {
         justify-content: center;
     }
 
-    .hostingPopular {
+    .Hosting-popular {
         order: 1;
         width: 100%;
     }
 
-    .cardPopular {
+    .Card-popular {
         flex-wrap: nowrap;
     }
 
